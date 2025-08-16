@@ -1,4 +1,4 @@
-# HLX_BetterClassUI
+# HLX_BetterClassUI V1.0
 
 Better Class UI replaces the default class interface with a cleaner and more user-friendly design.
 You can use skin and bodygroups for the preview playermodel class.
