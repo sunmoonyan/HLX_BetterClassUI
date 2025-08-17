@@ -88,7 +88,7 @@ function PANEL:SetClass(data)
         local bodygroups = data.bodygroups or {}
         
         if (istable(model)) then
-            model = table.Random(model)
+           model = model[ math.random(#model) ]
         end
 
         self.icon:SetModel(model,skin,bodygroups)
@@ -136,7 +136,7 @@ function PANEL:LoadClasses()
     self.list:Clear()
     local character = LocalPlayer():GetCharacter()
     local faction = character:GetFaction()
-
+    print(LocalPlayer():GetCharacter():GetClass())
     for k, v in ipairs(ix.class.list) do
         local no, why = ix.class.CanSwitchTo(LocalPlayer(), k)
         local itsFull = ("class is full" == why)
