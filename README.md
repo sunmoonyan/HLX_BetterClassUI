@@ -2,7 +2,6 @@
 
 You can use skin and bodygroups for the class playermodels.
 
-
 ```lua
 CLASS.skin 
 CLASS.bodygroups 
