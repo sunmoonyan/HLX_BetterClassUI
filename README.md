@@ -1,6 +1,6 @@
 # HLX_BetterClassUI
 
-You can use skin and bodygroups for the preview playermodel class.
+You can use skin and bodygroups for the class playermodel.
 
 ```lua
 CLASS.skin 
